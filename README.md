@@ -1,45 +1,49 @@
-<div align="center">
-  <h1>Accelist</h1>
-  <p><strong>Satu ekosistem digital untuk teknologi, penerbangan, edukasi, pangan, dan konsultasi.</strong></p>
-  <p>
-    <a href="https://accelist.vercel.app/">Live Preview</a>
-    &nbsp;·&nbsp;
-    <a href="https://github.com/rizqifadil/Accelist">Source Code</a>
-  </p>
-  <img src="assets/accelist-preview.png" alt="Tampilan landing page Accelist di desktop" width="100%">
-</div>
+# ACCELIST
+
+Landing page profil PT Accelist Lentera Indonesia yang memperkenalkan lima unit bisnis Accelist.
 
 ## Tentang proyek
 
-Landing page responsif untuk memperkenalkan lima unit bisnis Accelist. Pengunjung dapat menjelajahi setiap bidang melalui panel visual yang terhubung ke situs unit terkait.
+Website ini menghadirkan panel visual untuk menjelajahi bidang Technology, Aviation, Edukasi, Pangan, dan Consulting. Tampilannya dirancang agar nyaman digunakan di desktop, tablet, dan ponsel.
+
+![Pratinjau landing page Accelist](assets/website-preview.png)
 
 ## Fitur
 
-- Lima panel untuk Technology, Aviation, Edukasi, Pangan, dan Consulting.
-- Tampilan desktop berdampingan serta panel geser di tablet dan ponsel.
-- Indikator panel interaktif di layar kecil.
-- Sorotan saat panel disentuh atau difokuskan dengan keyboard.
+- Lima panel visual yang terhubung ke situs masing-masing unit bisnis.
+- Layout desktop berdampingan dan panel geser pada tablet serta ponsel.
+- Indikator panel interaktif pada layar kecil.
+- Efek sorot saat panel disentuh atau difokuskan dengan keyboard.
 - Navigasi keyboard dan dukungan preferensi gerakan terbatas.
-- Aset gambar lokal agar foto tetap tersedia tanpa layanan gambar eksternal.
+- Aset gambar disimpan lokal di dalam folder proyek.
 
 ## Teknologi
 
-`HTML` · `CSS` · `JavaScript`
+- HTML5
+- CSS3 (Grid, Flexbox, dan media query responsif)
+- JavaScript
 
 ## Menjalankan secara lokal
 
-1. Clone repository ini.
-2. Letakkan folder proyek di dalam `htdocs` XAMPP.
-3. Buka `http://localhost/Accelist/` di browser.
+Tidak diperlukan proses build atau instalasi dependensi.
 
-Halaman ini juga dapat dibuka langsung melalui `index.html`.
+1. Clone repository ini.
+2. Buka `index.html` di browser, atau letakkan folder proyek di `htdocs` jika menggunakan XAMPP.
+3. Untuk folder `tokofil4` di XAMPP, akses `http://localhost/tokofil4/`.
 
 ## Struktur proyek
 
 ```text
-Accelist/
-├── assets/       # Foto panel, logo, dan screenshot
-├── index.html    # Struktur halaman
-├── style.css     # Gaya dan layout responsif
-└── script.js     # Interaksi panel dan navigasi
+.
+├── assets/
+│   ├── *-Normal.jpg dan *-hover.jpg
+│   ├── logo.png`n│   └── website-preview.png
+├── index.html
+├── script.js
+├── style.css
+└── README.md
 ```
+
+## Demo
+
+[Lihat website Accelist](https://accelist.vercel.app/)
