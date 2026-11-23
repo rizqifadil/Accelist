@@ -37,7 +37,8 @@ Tidak diperlukan proses build atau instalasi dependensi.
 .
 ├── assets/
 │   ├── *-Normal.jpg dan *-hover.jpg
-│   ├── logo.png`n│   └── website-preview.png
+│   ├── logo.png
+│   └── website-preview.png
 ├── index.html
 ├── script.js
 ├── style.css
