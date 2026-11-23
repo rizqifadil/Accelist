@@ -1,6 +1,6 @@
-# ACCELIST
+<h1 align="center">ACCELIST</h1>
 
-Landing page profil PT Accelist Lentera Indonesia yang memperkenalkan lima unit bisnis Accelist.
+<p align="center">Landing page profil PT Accelist Lentera Indonesia yang memperkenalkan lima unit bisnis Accelist.</p>
 
 <p align="center">
   <a href="https://accelist.vercel.app/"><img alt="WEBSITE LIVE" src="https://img.shields.io/badge/WEBSITE-LIVE-008B8B?style=for-the-badge&labelColor=555555"></a>
